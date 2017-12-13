@@ -1,0 +1,16 @@
+.new-task{
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 0;
+}
+
+.new-task:hover {
+  opacity: 0.8;
+}
+
+input {
+  border: none;
+}

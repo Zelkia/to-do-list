@@ -1,0 +1,38 @@
+/*CSS for the task goes here*/
+.task-card {
+  background-colour: #fff;
+  width: 80%;
+  display: flex;
+  margin: 10px auto;
+}
+
+.task {
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+  flex: 1 0 auto;
+}
+
+.checkbox {
+  background-color: #fff;
+  color: #666;
+  border-radius: 0 5px 5px 0;
+  flex: 0 0 auto;
+  align-items: center;
+  width: 50px;
+  border-left: 1px solid gray;
+  margin: 0 auto;
+  line-height: 2.4;
+}
+
+.checkbox:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #ddd;
+  background-color: #666
+}
